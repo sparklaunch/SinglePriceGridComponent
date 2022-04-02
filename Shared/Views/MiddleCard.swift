@@ -9,13 +9,14 @@ import SwiftUI
 
 struct MiddleCard: View {
     var body: some View {
-        ZStack {
+        ZStack(alignment: .topLeading) {
             Color("MiddleCardColor")
             VStack(alignment: .leading, spacing: 10) {
                 Text("Monthly Subscription")
                     .font(.title)
                     .fontWeight(.bold)
                     .foregroundColor(.white)
+                    .fixedSize(horizontal: false, vertical: true)
                 HStack(spacing: 15) {
                     Text("$29")
                         .font(.largeTitle)

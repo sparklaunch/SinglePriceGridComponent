@@ -9,9 +9,9 @@ import SwiftUI
 
 struct UpperCard: View {
     var body: some View {
-        ZStack {
+        ZStack(alignment: .topLeading) {
             Color.white
-            VStack(alignment: .leading, spacing: 20) {
+            LazyVStack(alignment: .leading, spacing: 20) {
                 Text("Join our community")
                     .font(.title)
                     .fontWeight(.bold)
@@ -20,12 +20,10 @@ struct UpperCard: View {
                     .font(.title3)
                     .fontWeight(.bold)
                     .foregroundColor(Color("ButtonColor"))
-                    .fixedSize(horizontal: false, vertical: true)
                 Text("Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills.")
                     .font(.subheadline)
                     .fontWeight(.regular)
                     .foregroundColor(Color("TextColor"))
-                    .fixedSize(horizontal: false, vertical: true)
                     .lineSpacing(5)
             }
             .padding(30)

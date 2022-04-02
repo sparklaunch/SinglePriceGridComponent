@@ -9,7 +9,7 @@ import SwiftUI
 
 struct BottomCard: View {
     var body: some View {
-        ZStack {
+        ZStack(alignment: .topLeading) {
             Color("BottomCardColor")
             VStack(alignment: .leading, spacing: 15) {
                 Text("Why Us")
@@ -28,6 +28,7 @@ struct BottomCard: View {
                 .font(.body)
                 .foregroundColor(.white.opacity(0.5))
             }
+            .padding(30)
         }
         .scaledToFit()
     }

@@ -9,11 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack {
-            Color("BackgroundColor")
-                .edgesIgnoringSafeArea(.all)
-            Card()
+        ScrollView {
+            VStack {
+                ZStack {
+                    Color("BackgroundColor")
+                        .edgesIgnoringSafeArea(.all)
+                    Card()
+                }
+            }
+            .padding(.vertical, 80)
         }
+        .background(Color("BackgroundColor"))
     }
 }
 

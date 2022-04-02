@@ -9,11 +9,12 @@ import SwiftUI
 
 struct Card: View {
     var body: some View {
-        VStack(spacing: 0) {
+        LazyVStack(spacing: 0) {
             UpperCard()
             MiddleCard()
             BottomCard()
         }
+        .scaledToFit()
         .cornerRadius(10)
         .padding()
         .shadow(radius: 10)
