@@ -9,8 +9,9 @@ import SwiftUI
 
 struct Card: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 0) {
             UpperCard()
+            MiddleCard()
         }
         .cornerRadius(10)
         .padding()

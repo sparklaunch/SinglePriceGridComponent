@@ -15,6 +15,8 @@
 		909D678B27F820670012E3B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 909D677827F820670012E3B9 /* Assets.xcassets */; };
 		909D679827F8227A0012E3B9 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D679727F8227A0012E3B9 /* Card.swift */; };
 		909D679A27F822B90012E3B9 /* UpperCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D679927F822B90012E3B9 /* UpperCard.swift */; };
+		909D679C27F824800012E3B9 /* MiddleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D679B27F824800012E3B9 /* MiddleCard.swift */; };
+		909D679E27F825820012E3B9 /* SignupButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D679D27F825820012E3B9 /* SignupButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		909D678527F820670012E3B9 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		909D679727F8227A0012E3B9 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		909D679927F822B90012E3B9 /* UpperCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperCard.swift; sourceTree = "<group>"; };
+		909D679B27F824800012E3B9 /* MiddleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleCard.swift; sourceTree = "<group>"; };
+		909D679D27F825820012E3B9 /* SignupButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 				909D677727F820660012E3B9 /* ContentView.swift */,
 				909D679727F8227A0012E3B9 /* Card.swift */,
 				909D679927F822B90012E3B9 /* UpperCard.swift */,
+				909D679B27F824800012E3B9 /* MiddleCard.swift */,
+				909D679D27F825820012E3B9 /* SignupButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -207,7 +213,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				909D679A27F822B90012E3B9 /* UpperCard.swift in Sources */,
+				909D679E27F825820012E3B9 /* SignupButton.swift in Sources */,
 				909D678827F820670012E3B9 /* ContentView.swift in Sources */,
+				909D679C27F824800012E3B9 /* MiddleCard.swift in Sources */,
 				909D679827F8227A0012E3B9 /* Card.swift in Sources */,
 				909D678627F820670012E3B9 /* SinglePriceGridComponentApp.swift in Sources */,
 			);

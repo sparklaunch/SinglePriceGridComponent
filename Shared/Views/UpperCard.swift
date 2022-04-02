@@ -37,7 +37,6 @@ struct UpperCard: View {
 struct UpperCard_Previews: PreviewProvider {
     static var previews: some View {
         UpperCard()
-            .padding()
             .previewLayout(.sizeThatFits)
     }
 }
