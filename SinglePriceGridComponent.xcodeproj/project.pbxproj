@@ -17,6 +17,7 @@
 		909D679A27F822B90012E3B9 /* UpperCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D679927F822B90012E3B9 /* UpperCard.swift */; };
 		909D679C27F824800012E3B9 /* MiddleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D679B27F824800012E3B9 /* MiddleCard.swift */; };
 		909D679E27F825820012E3B9 /* SignupButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D679D27F825820012E3B9 /* SignupButton.swift */; };
+		909D67A027F827A60012E3B9 /* BottomCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909D679F27F827A60012E3B9 /* BottomCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		909D679927F822B90012E3B9 /* UpperCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperCard.swift; sourceTree = "<group>"; };
 		909D679B27F824800012E3B9 /* MiddleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleCard.swift; sourceTree = "<group>"; };
 		909D679D27F825820012E3B9 /* SignupButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupButton.swift; sourceTree = "<group>"; };
+		909D679F27F827A60012E3B9 /* BottomCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				909D679927F822B90012E3B9 /* UpperCard.swift */,
 				909D679B27F824800012E3B9 /* MiddleCard.swift */,
 				909D679D27F825820012E3B9 /* SignupButton.swift */,
+				909D679F27F827A60012E3B9 /* BottomCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				909D67A027F827A60012E3B9 /* BottomCard.swift in Sources */,
 				909D679A27F822B90012E3B9 /* UpperCard.swift in Sources */,
 				909D679E27F825820012E3B9 /* SignupButton.swift in Sources */,
 				909D678827F820670012E3B9 /* ContentView.swift in Sources */,

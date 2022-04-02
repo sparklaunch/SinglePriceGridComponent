@@ -12,6 +12,7 @@ struct Card: View {
         VStack(spacing: 0) {
             UpperCard()
             MiddleCard()
+            BottomCard()
         }
         .cornerRadius(10)
         .padding()
@@ -22,7 +23,6 @@ struct Card: View {
 struct Card_Previews: PreviewProvider {
     static var previews: some View {
         Card()
-            .padding()
             .background(Color("BackgroundColor"))
             .previewLayout(.sizeThatFits)
     }
