@@ -11,7 +11,7 @@ struct UpperCard: View {
     var body: some View {
         ZStack(alignment: .topLeading) {
             Color.white
-            LazyVStack(alignment: .leading, spacing: 20) {
+            VStack(alignment: .leading, spacing: 20) {
                 Text("Join our community")
                     .font(.title)
                     .fontWeight(.bold)
@@ -26,6 +26,7 @@ struct UpperCard: View {
                     .foregroundColor(Color("TextColor"))
                     .lineSpacing(5)
             }
+            .fixedSize(horizontal: false, vertical: true)
             .padding(30)
         }
         .scaledToFit()

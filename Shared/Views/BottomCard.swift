@@ -30,6 +30,7 @@ struct BottomCard: View {
             }
             .padding(30)
         }
+        .fixedSize(horizontal: false, vertical: true)
         .scaledToFit()
     }
 }
